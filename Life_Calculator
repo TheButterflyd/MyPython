@@ -1,0 +1,9 @@
+#Simplu calculator care calculeaza cat timp mai ai de trait pana la varsta pe care o doresti
+#Stiu ca e sinistru programul asta dar in fine
+age = input("Cati ani ai ? \n")
+die_age = input("Care este vatsta la care vrei sa se termine ?\n")
+varsta = int(age)
+varsta_die = int(die_age)
+rest_viata = varsta_die - varsta
+
+print(f"Mai ai {rest_viata*365} zile, {rest_viata*52} saptamani si {rest_viata*12} luni")
