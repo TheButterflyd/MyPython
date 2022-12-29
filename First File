@@ -1,1 +1,1 @@
-print("Esti Prost" + input("Baga numele tau pls \n"))
+print("Esti Prost " + input("Baga numele tau pls \n"))
